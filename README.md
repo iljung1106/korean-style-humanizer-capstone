@@ -3,6 +3,12 @@
 대형 언어 모델(LLM)이 생성한 한국어 롤플레잉 응답을 사람이 쓴 웹소설 문체에 가깝게 변환하기 위한 캡스톤 프로젝트입니다.  
 AI 특유의 균일한 문장 구조, 반복 표현, 쉼표 과사용, 번역투, 과도한 직유 표현을 정량 지표로 측정하고, SFT -> SimPO/CPO -> GRPO 학습 파이프라인으로 문체를 인간 소설 분포에 가깝게 이동시키는 것을 목표로 했습니다.
 
+## 시연 영상
+
+<video src="assets/demo/style_humanizer_demo.mp4" controls width="720"></video>
+
+[시연 영상 바로 보기](assets/demo/style_humanizer_demo.mp4)
+
 ![학습 파이프라인](assets/figures/training_pipeline.png)
 
 ## 프로젝트 소개

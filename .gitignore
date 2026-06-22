@@ -8,6 +8,10 @@ __pycache__/
 .ruff_cache/
 .ipynb_checkpoints/
 
+# Frontend dependencies/build outputs
+node_modules/
+dist/
+
 # Secrets and local environment files
 .env
 .env.*
