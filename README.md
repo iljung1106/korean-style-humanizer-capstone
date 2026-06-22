@@ -5,7 +5,7 @@ AI 특유의 균일한 문장 구조, 반복 표현, 쉼표 과사용, 번역투
 
 ## 시연 영상
 
-<video src="assets/demo/style_humanizer_demo.mp4" controls width="720"></video>
+![문체 인간화 UI 시연](assets/demo/style_humanizer_demo.gif)
 
 [시연 영상 바로 보기](assets/demo/style_humanizer_demo.mp4)
 
