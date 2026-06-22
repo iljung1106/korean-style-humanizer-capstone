@@ -130,9 +130,3 @@ python pipeline_v2/eval/phase_eval/score_and_report.py
 ![결론](assets/figures/conclusion.png)
 
 본 프로젝트는 AI 롤플레잉 응답의 몰입을 저해하는 문체 특징을 정량화하고, 이를 직접 최적화 대상으로 삼는 한국어 문체 인간화 파이프라인을 구현했습니다. 주요 지표는 인간 소설 분포 방향으로 이동했으며, 향후에는 아직 AI 분포에 가까운 종결 표현 반복, 문장 길이 리듬, 수식어 반복 지표를 개선하고 실제 사용자 설문 평가로 몰입도 변화를 검증할 계획입니다.
-
-## 참고
-
-- 최종 발표자료: `docs/final_presentation.pdf`
-- 발표자료 텍스트 추출본: `docs/final_presentation_slide_text.md`
-- 평가 CSV: `data/metrics/stage06b_rewrite_filtered_metrics_with_explanations.csv`
