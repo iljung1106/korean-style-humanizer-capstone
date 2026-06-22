@@ -1,0 +1,27 @@
+# Vanilla TRL + vLLM server-mode environment for Stage08C GRPO experiments.
+#
+# Install PyTorch from the instance image or the official PyTorch index first.
+# Keep this environment separate from the Unsloth venv.
+#
+# TRL's current vLLM integration docs state that vLLM 0.12.0 through 0.18.0 is
+# supported. Do not mix this with the Unsloth env. Current vLLM wheels require
+# transformers<5, so this intentionally does not use the Unsloth-side
+# transformers==5.5.x stack.
+
+trl[vllm]>=0.29.1,<0.30
+vllm>=0.12.0,<0.19.0
+transformers>=4.56.2,<5.0.0
+accelerate
+peft>=0.19.0,<0.20.0
+bitsandbytes
+datasets
+kiwipiepy
+scikit-learn
+scipy
+numpy
+pandas
+joblib
+wandb
+huggingface_hub
+jupyter
+ipykernel

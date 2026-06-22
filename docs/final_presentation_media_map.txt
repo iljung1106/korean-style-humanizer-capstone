@@ -1,0 +1,19 @@
+slide 1: 
+slide 2: 
+slide 3: image1.jpg
+slide 4: media1.mp4, media1.mp4, image2.png
+slide 5: image4.jpg, image3.png
+slide 6: image10.png, image6.jpg, image5.png, image9.png, image13.jpg, image8.png, image12.jpg, image7.png, image11.jpg
+slide 7: image15.jpg, image14.png
+slide 8: image22.jpg, image27.jpg, image32.png, image17.png, image21.jpg, image26.png, image31.jpg, image16.png, image30.png, image20.png, image25.jpg, image19.jpg, image29.jpg, image24.png, image33.jpg, image18.png, image23.png, image28.png
+slide 9: image34.png
+slide 10: image41.png, image46.png, image36.png, image40.png, image45.png, image35.png, image49.png, image39.png, image44.png, image38.png, image48.png, image43.png, image37.png, image42.png, image47.png
+slide 11: image51.png, image50.png, image52.png
+slide 12: image59.png, image54.png, image58.png, image53.png, image57.png, image62.png, image56.png, image61.png, image55.png, image60.png
+slide 13: image64.png, image63.jpg
+slide 14: image66.png, image65.png
+slide 15: image68.png, image67.png, image69.jpg
+slide 16: 
+slide 17: 
+slide 18: image76.png, image81.png, image71.png, image75.png, image80.png, image70.png, image74.png, image79.png, image73.png, image78.png, image72.png, image77.png, image82.png
+slide 19: image84.png, image88.png, image83.jpg, image87.png, image86.png, image85.png

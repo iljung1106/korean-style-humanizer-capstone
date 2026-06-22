@@ -1,0 +1,19 @@
+{
+  "project_root": "/workspace/gemma4_style_rl_training",
+  "raw_human_novels_dir": "/workspace/gemma4_style_rl_training/../data/raw/human_novels",
+  "output_dir": "/workspace/gemma4_style_rl_training/data/pipeline_v2",
+  "cleaning": {
+    "min_chars": 1200,
+    "max_chars": 6000,
+    "target_chars": 4200,
+    "min_hangul_ratio": 0.45,
+    "near_duplicate_window": 1800
+  },
+  "cpt_mix": {
+    "raw_lm_ratio": 0.50,
+    "continuation_sft_ratio": 0.35,
+    "format_sft_ratio": 0.15,
+    "context_chars": 1600,
+    "completion_chars": 2600
+  }
+}

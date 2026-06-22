@@ -1,0 +1,23 @@
+{
+  "dataset": "/workspace/gemma4_style_rl_training/data/pipeline_v2/cpt_mixed_probe.jsonl",
+  "output": "/workspace/gemma4_style_rl_training/outputs/pipeline_v2/stage01_cpt_lite_smoke",
+  "model": "unsloth/gemma-4-31B-it",
+  "adapter_path": "",
+  "chat_template": "gemma-4",
+  "max_seq_length": 8192,
+  "load_in_4bit": true,
+  "lora_r": 32,
+  "lora_alpha": 64,
+  "lora_dropout": 0.0,
+  "lora_last_layer_fraction": 0.6,
+  "batch_size": 1,
+  "grad_accum": 8,
+  "learning_rate": 8e-7,
+  "max_steps": 10,
+  "logging_steps": 1,
+  "save_steps": 10,
+  "row_type_sampling": "balanced",
+  "row_type_balance": "raw_lm=3,continuation_sft=3,format_sft=2,general_guard=1",
+  "report_to": "none",
+  "run_name": "pipeline_v2_stage01_cpt_lite_smoke"
+}

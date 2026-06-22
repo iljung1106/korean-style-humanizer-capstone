@@ -1,0 +1,53 @@
+# Local Python environments
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets and local environment files
+.env
+.env.*
+*.key
+*.pem
+pkcs11.txt
+
+# Training artifacts
+outputs/
+wandb/
+logs/
+*.log
+checkpoint-*/
+**/checkpoint-*/
+
+# Large model/checkpoint files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# Local/raw datasets are not redistributed in this repository.
+data/raw/
+data/interim/
+data/processed/
+data/final/
+data/pipeline_v2/
+data/eval_v2/
+data/phase_eval_v2/
+
+# Generated bulky archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

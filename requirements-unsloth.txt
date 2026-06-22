@@ -1,0 +1,44 @@
+# Training environment used for the Stage08 Gemma4 31B pipeline.
+#
+# Install PyTorch first from a CUDA-compatible image/index.
+#
+# On B200, prefer the Vast PyTorch template
+# `2.11.0-cu130-cuda-13.2-mini-py310-*`. Do not run a plain
+# `pip install -r requirements-vast.txt` in that environment: the
+# `unsloth==2026.5.8` resolver constraint is `torch<2.11.0` and was observed to
+# downgrade `torch 2.11.0+cu130` to `torch 2.10.0+cu128`.
+#
+# For B200/cu130, follow `pipeline_v2/docs/b200_vast_runbook.md`: pin/repair
+# torch first, install xformers for SM100, patch the xformers B200 capability
+# gate, then install the Stage08 package pins with resolver control.
+#
+# The last verified RTX PRO 6000 Blackwell run used:
+#   Python 3.10
+#   torch 2.10.0+cu128
+#   transformers 5.5.0
+#   trl 0.24.0
+#   peft 0.19.1
+#   xformers 0.0.35
+#   unsloth 2026.5.8
+#
+# Do not use the old trl==1.4.0 pin for pipeline_v2 Stage08.
+
+unsloth==2026.5.8
+transformers==5.5.0
+trl==0.24.0
+accelerate
+peft==0.19.1
+xformers==0.0.35
+bitsandbytes
+datasets
+sentence-transformers
+kiwipiepy
+scikit-learn
+scipy
+numpy
+pandas
+joblib
+wandb
+huggingface_hub
+jupyter
+ipykernel
